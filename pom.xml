@@ -4,8 +4,8 @@
   <artifactId>PetStoreAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
     <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
 </properties>
 
   <build>
@@ -28,12 +28,9 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.10.1</version>
         <configuration>
-          <fork>true</fork>
-          <compilerArgs>
-            <arg>--add-exports</arg>
-            <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
-          </compilerArgs>
-        </configuration>
+			 <source>17</source>
+             <target>17</target>
+         </configuration>
       </plugin>
     </plugins>
   </build>
