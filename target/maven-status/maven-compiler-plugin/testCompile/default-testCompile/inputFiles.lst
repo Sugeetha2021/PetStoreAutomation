@@ -1,11 +1,13 @@
-C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\endpoints\UserEndPoints2.java
+C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\payload\Store.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\test\StoreTest.java
-C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\test\DDTests.java
-C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\endpoints\Routes.java
+C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\endpoints\StoreEndPoints.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\endpoints\UserEndPoints.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\test\UserTests2.java
+C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\utilities\ExtentReportManager.java
+C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\endpoints\UserEndPoints2.java
+C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\test\DDTests.java
+C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\endpoints\Routes.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\utilities\DataProviders.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\test\UserTests.java
-C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\utilities\ExtentReportManager.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\utilities\XLUtility.java
 C:\FSS_Document\Restassured API Automation\RestAssure\PetStoreAutomation\src\test\java\api\payload\User.java
