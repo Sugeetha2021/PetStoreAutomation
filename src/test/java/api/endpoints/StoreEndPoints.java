@@ -44,25 +44,25 @@ public class StoreEndPoints {
 			
 		return response;
 	}
-	public static Response readOrderByorderID(int orderId)
+	public static Response readOrderByorderID(int Id)
 	{
 		String getstoreOrder_url=getURL().getString("getstoreorder_url");
 		
 		
 		Response response=given()
-				.pathParam("orderId",2)
+				.pathParam("Id",Id)
 						
 		.when()
 			.get(getstoreOrder_url);
 			
 		return response;
 	}
-	public static Response deleteOrderById(int orderId)
+	public static Response deleteOrderById(int Id)
 	{
 		String deletestoreOrder_url=getURL().getString("deletestore_url");
 		
 		Response response=given()
-				.pathParam("orderId",10)
+				.pathParam("Id",Id)
 		.when()
 			.delete(deletestoreOrder_url);
 			
