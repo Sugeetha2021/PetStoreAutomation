@@ -1,5 +1,7 @@
 package api.endpoints;
 
+import java.net.URI;
+
 /* 
 Swagger URI --> https://petstore.swagger.io
 
@@ -11,6 +13,8 @@ Delete user (Delete) : https://petstore.swagger.io/v2/user/{username}
 */
 
 public class Routes {
+
+	
 
 	public static String base_url="https://petstore.swagger.io/v2" ;
 	
@@ -26,7 +30,7 @@ public class Routes {
 		//Here you will create Store module URL's
 
     //Pet module
-    		//Here you will create Pet module URL's
+    public static  String PostuploadImage_url = base_url+"/pet/{id}/uploadImage";
     
     
 }

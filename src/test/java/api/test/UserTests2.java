@@ -44,12 +44,14 @@ public class UserTests2 {
 	@Test(priority=1)
 	public void testPostUser()
 	{
+		
+		
 		logger.info("********** Creating user  ***************");
 		Response response=UserEndPoints2.createUser(userPayload);
 		response.then().log().all();
 		
-		Assert.assertEquals(response.getStatusCode(),200);
-		
+		Assert.assertEquals(response.getStatusCode(), 200);
+	
 		logger.info("**********User is creatged  ***************");
 			
 	}
@@ -60,6 +62,7 @@ public class UserTests2 {
 		logger.info("********** Reading User Info ***************");
 		
 		Response response=UserEndPoints2.readUser(this.userPayload.getUsername());
+		System.out.println("Get user by name:");
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(),200);
 		

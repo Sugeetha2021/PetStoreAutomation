@@ -71,7 +71,8 @@ public class StoreTest {
 	public void testGetUserByOrderID()
 	{
         int Id = this.storePayload.getId();  // Ensure this retrieves a valid order ID
-
+        System.out.println("printing order id ID: " + Id);
+        
         Response response = StoreEndPoints.readOrderByorderID(Id);
         response.then().log().all();
         
@@ -81,15 +82,16 @@ public class StoreTest {
 	@Test(priority=4)
 	public void deleteOrderById()
 	{
-		logger.info("**********   Deleting User  ***************");
+		logger.info("**********   Store order details  ***************");
 		
 		int Id = this.storePayload.getId();  // Ensure this retrieves a valid order ID
+		System.out.println("printing order id ID-Delete: " + Id);
 
         Response response = StoreEndPoints.deleteOrderById(Id);
         response.then().log().all();
         
         Assert.assertEquals(response.getStatusCode(), 200);
 		
-		logger.info("********** User deleted ***************");
+		logger.info("********** store order details deleted successfully ***************");
 	}
 }
