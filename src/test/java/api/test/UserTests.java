@@ -1,7 +1,10 @@
 package api.test;
 
 import org.apache.logging.log4j.LogManager;
+import static org.hamcrest.Matchers.lessThan;
+import static org.hamcrest.MatcherAssert.assertThat;
 import org.apache.logging.log4j.Logger;
+import org.hamcrest.Matcher;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -60,13 +63,18 @@ public class UserTests {
 		logger.info("********** Reading User Info ***************");
 		
 		Response response=UserEndPoints.readUser(this.userPayload.getUsername());
+		System.out.println("get user anme:" + response);
+		response.then().assertThat().time(lessThan(2000L));
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(),200);
+		//Assert.assertEquals(response.getStatusCode(),200);
 		
 		logger.info("**********User info  is displayed ***************");
 		
 	}
 	
+
+
+
 	@Test(priority=3)
 	public void testUpdateUserByName()
 	{

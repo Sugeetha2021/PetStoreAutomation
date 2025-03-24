@@ -1,3 +1,5 @@
+api\payload\Tag.class
+api\payload\Category.class
 api\test\StoreTest.class
 api\test\UserTests.class
 api\utilities\ExtentReportManager.class
@@ -8,6 +10,9 @@ api\endpoints\Routes.class
 api\endpoints\UserEndPoints2.class
 api\endpoints\StoreEndPoints.class
 api\test\DDTests.class
+api\test\PetsTest.class
 api\test\UserTests2.class
+api\endpoints\PetsEndPoints.class
 api\payload\Store.class
+api\payload\Pets.class
 api\utilities\XLUtility.class
